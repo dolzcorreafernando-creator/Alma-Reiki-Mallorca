@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alma Reiki Mallorca</title>
+  <meta name="description" content="Sesiones y clases de Reiki en Mallorca. Un espacio de calma, equilibrio y bienestar.">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #3f453f;
+      background: #f8f6f1;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+      background:
+        linear-gradient(rgba(37, 47, 42, 0.45), rgba(37, 47, 42, 0.45)),
+        url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1600&q=85')
+        center/cover;
+      color: white;
+    }
+
+    .hero {
+      max-width: 800px;
+    }
+
+    .hero h1 {
+      font-size: clamp(3rem, 8vw, 6rem);
+      font-family: Georgia, serif;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: clamp(1.2rem, 3vw, 2rem);
+      font-weight: 300;
+      margin-bottom: 24px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 650px;
+      margin: 0 auto 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #708477;
+      color: white;
+      text-decoration: none;
+      border-radius: 999px;
+      transition: 0.25s;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      background: #5d7164;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(248,246,241,0.95);
+      backdrop-filter: blur(8px);
+      padding: 14px 20px;
+      text-align: center;
+      border-bottom: 1px solid #dedbd3;
+    }
+
+    nav a {
+      color: #485149;
+      text-decoration: none;
+      margin: 0 12px;
+      font-size: 0.95rem;
+    }
+
+    section {
+      padding: 85px 20px;
+    }
+
+    .container {
+      width: min(1100px, 100%);
+      margin: auto;
+    }
+
+    h3 {
+      font-family: Georgia, serif;
+      font-size: 2.4rem;
+      font-weight: normal;
+      text-align: center;
+      margin-bottom: 25px;
+      color: #455348;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 750px;
+      margin: auto;
+      font-size: 1.08rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+      margin-top: 45px;
+    }
+
+    .card {
+      background: white;
+      padding: 32px 25px;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    }
+
+    .card h4 {
+      font-family: Georgia, serif;
+      font-size: 1.5rem;
+      margin-bottom: 12px;
+      color: #536257;
+    }
+
+    .soft {
+      background: #e8ebe4;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 45px;
+      align-items: center;
+    }
+
+    .about img {
+      width: 100%;
+      border-radius: 22px;
+      min-height: 420px;
+      object-fit: cover;
+    }
+
+    .about h3 {
+      text-align: left;
+    }
+
+    .price {
+      font-size: 1.5rem;
+      margin-top: 12px;
+      font-weight: bold;
+      color: #66796b;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      margin-bottom: 24px;
+    }
+
+    footer {
+      background: #3f4c43;
+      color: #e7ece8;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 760px) {
+      nav {
+        display: none;
+      }
+
+      .about {
+        grid-template-columns: 1fr;
+      }
+
+      .about h3 {
+        text-align: center;
+      }
+
+      section {
+        padding: 65px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="hero">
+    <h1>Alma Reiki</h1>
+    <h2>Reiki y bienestar en Mallorca</h2>
+    <p>
+      Un espacio para reconectar contigo, encontrar calma y recuperar tu equilibrio
+      a través de sesiones y clases de Reiki.
+    </p>
+    <a class="btn" href="#contacto">Reserva tu sesión</a>
+  </div>
+</header>
+
+<nav>
+  <a href="#reiki">Reiki</a>
+  <a href="#sesiones">Sesiones</a>
+  <a href="#clases">Clases</a>
+  <a href="#sobre-mi">Sobre mí</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="reiki">
+  <div class="container">
+    <h3>Un espacio para ti</h3>
+    <p class="intro">
+      El Reiki es una práctica de bienestar orientada a favorecer la relajación,
+      la calma y la conexión personal. Cada sesión se realiza en un ambiente tranquilo,
+      respetuoso y adaptado a cada persona.
+    </p>
+  </div>
+</section>
+
+<section id="sesiones" class="soft">
+  <div class="container">
+    <h3>Sesiones de Reiki</h3>
+
+    <div class="cards">
+      <div class="card">
+        <h4>Sesión individual</h4>
+        <p>
+          Una experiencia personalizada para desconectar del ritmo diario,
+          relajarte y dedicarte un momento de cuidado.
+        </p>
+        <div class="price">Consultar precio</div>
+      </div>
+
+      <div class="card">
+        <h4>Primera sesión</h4>
+        <p>
+          Un primer encuentro para conocernos, explicar cómo funciona la sesión
+          y adaptar la experiencia a tus necesidades.
+        </p>
+        <div class="price">Consultar precio</div>
+      </div>
+
+      <div class="card">
+        <h4>Bonos de sesiones</h4>
+        <p>
+          Para quienes desean incorporar el Reiki de forma más regular
+          dentro de su rutina de bienestar.
+        </p>
+        <div class="price">Consultar</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="clases">
+  <div class="container">
+    <h3>Clases y formación</h3>
+    <p class="intro">
+      Aprende Reiki en un entorno cercano y tranquilo. Formación para personas
+      que quieren iniciarse o seguir profundizando en su práctica.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h4>Iniciación al Reiki</h4>
+        <p>
+          Introducción a sus principios, práctica y herramientas básicas
+          para comenzar tu camino.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Clases individuales</h4>
+        <p>
+          Formación personalizada y adaptada al ritmo y experiencia de cada persona.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Grupos reducidos</h4>
+        <p>
+          Talleres y encuentros en grupos pequeños para aprender y compartir
+          la experiencia de manera cercana.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre-mi" class="soft">
+  <div class="container about">
+    <img
+      src="https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&w=1000&q=85"
+      alt="Espacio de bienestar y relajación"
+    >
+
+    <div>
+      <h3>Sobre mí</h3>
+      <p>
+        Soy [NOMBRE], practicante de Reiki en Mallorca. Mi objetivo es crear
+        un espacio cercano, tranquilo y respetuoso donde cada persona pueda
+        parar, reconectar consigo misma y dedicar tiempo a su bienestar.
+      </p>
+      <br>
+      <p>
+        Cada sesión y cada clase se realiza desde la escucha y el respeto,
+        adaptándose a la persona y a su momento.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="container contact">
+    <h3>Reserva o pide información</h3>
+    <p>
+      Escríbeme por WhatsApp para consultar disponibilidad, precios o resolver cualquier duda.
+    </p>
+
+    <a
+      class="btn"
+      href="https://wa.me/34XXXXXXXXX"
+      target="_blank"
+      rel="noopener noreferrer">
+      Hablar por WhatsApp
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Alma Reiki Mallorca · Mallorca
+</footer>
+
+</body>
+</html>
